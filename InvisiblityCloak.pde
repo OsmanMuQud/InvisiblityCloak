@@ -4,14 +4,13 @@ Capture cam;
 IntList col= new IntList();
 float in=40;
 float colo=2.0;
-//Put your camera resolution (check the details of the camera for resolution)
 PImage mask;
 PImage mask2;
 PImage mask3=;
 boolean first=true;
 void setup()
 {
-//Here also put your cameras resolution;
+//Put your camera resolution (check the details of the camera for resolution)
   size(1280,720);
   cam=new Capture(this,width,height);
   mask=createImage(width,height,RGB);
